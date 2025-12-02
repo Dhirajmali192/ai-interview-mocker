@@ -9,11 +9,7 @@
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Project Architecture](#project-architecture)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Future Improvements](#future-improvements)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -51,3 +47,11 @@ The AI Interview Mocker Web Application simulates real interviews using **Gemini
 - **AI Integration**: Gemini AI generates questions and evaluates answers dynamically.
 - **Authentication**: Clerk manages secure user signup and login.
 
+---
+
+## Future Improvements
+- Move video/audio storage to **cloud storage** (AWS S3, Cloudinary) for scalability.  
+- Add multi-language support for AI-generated questions and speech-to-text.  
+- Implement real-time scoring and analytics dashboards for deeper insights.  
+- Integrate notifications and reminders for scheduled mock interviews.  
+- Add advanced NLP evaluation for more detailed AI feedback.
