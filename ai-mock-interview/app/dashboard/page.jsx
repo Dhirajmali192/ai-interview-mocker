@@ -84,10 +84,10 @@ function Dashboard() {
           ...statsCards[1],
           value: bestScore ? `${bestScore}/10` : 'N/A'
         },
-        {
-          ...statsCards[2],
-          value: `${improvementRate}%`
-        }
+        // {
+        //   ...statsCards[2],
+        //   value: `${improvementRate}%`
+        // }
       ]);
 
       if (totalInterviews > 0) {

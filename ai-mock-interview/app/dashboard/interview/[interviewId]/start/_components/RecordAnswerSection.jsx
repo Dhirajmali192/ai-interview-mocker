@@ -170,7 +170,7 @@ const RecordAnswerSection = ({
         <Button 
           variant="outline" 
           className="mt-4"
-          onClick={webcamEnabled ? DisableWebcam : EnableWebcam}
+          onClick={webcamEnabled ? EnableWebcam : DisableWebcam} 
         >
           {webcamEnabled ? (
             <>
